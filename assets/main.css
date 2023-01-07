@@ -1,0 +1,293 @@
+/* BASIC */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+div > div {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* TIPOGRAPHY */
+h1 {
+  margin: 2rem auto;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.15;
+}
+
+h2 {
+  margin: 2rem auto;
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 1.15;
+}
+
+h3 {
+  margin: 2rem auto;
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 1.15;
+}
+
+p {
+  margin: 2rem auto;
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 1.15;
+}
+
+/* COLORS */
+.sepia_bg {
+  color: #FFFFFF;
+  background-color: #E57E57;
+}
+
+.l-pink_bg {
+  background-color: #FFCCCC;
+}
+
+/* BTNS */
+a.btn {
+  width: 75%;
+  display: block;
+  margin: 3rem auto 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.15;
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #E57E57, #FD5252);
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1450980392);
+  -webkit-animation: 0.5s infinite alternate pulse;
+          animation: 0.5s infinite alternate pulse;
+}
+
+a.btn2 {
+  width: 75%;
+  display: block;
+  margin: 3rem auto 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.15;
+  color: #E57E57;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1450980392);
+  -webkit-animation: 0.5s infinite alternate pulse;
+          animation: 0.5s infinite alternate pulse;
+}
+
+a.buy-btn {
+  width: 75%;
+  display: block;
+  margin: 3rem auto 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.15;
+  color: #FFFFFF;
+  background-color: #3DC200;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1450980392);
+  -webkit-animation: 0.5s infinite alternate pulse;
+          animation: 0.5s infinite alternate pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    scale: 0.95;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    scale: 0.95;
+  }
+  100% {
+    scale: 1;
+  }
+}
+/* HACKS */
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.p10 {
+  padding: 1rem;
+}
+
+/* MEDIC DEPOIMENT */
+.medic-depoiment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+.medic-depoiment img {
+  max-width: 100px;
+  border-radius: 75px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1450980392);
+}
+.medic-depoiment p {
+  display: block;
+  margin: 0 0 0 1.6rem;
+  font-size: 1.8rem;
+}
+
+/* TEXT WITH BACKGROUND */
+.text-bg {
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-color: #E4E5E7;
+  border-radius: 25px 25px 0 0;
+}
+.text-bg h3 {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 50px;
+}
+.text-bg p {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+/* GUARANTEE */
+#guarantee p {
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+/* OFERT */
+.ofert-box {
+  display: block;
+  margin: 2rem auto;
+  padding: 1.2rem;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1450980392);
+  opacity: 90%;
+}
+.ofert-box h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+.ofert-box p {
+  font-size: 2rem;
+}
+.ofert-box .economy {
+  max-width: 75%;
+  display: block;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  color: #FFFFFF;
+  background-color: #0000FF;
+  border-radius: 50px;
+}
+.ofert-box .economy p {
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+
+/* REVIEWS */
+.review {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 2px solid #E4E5E7;
+  border-radius: 25px;
+}
+.review p {
+  text-align: left;
+}
+.review p.review-text {
+  font-size: 1.8rem;
+}
+
+/* FOOTER */
+#footer p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+#footer img {
+  margin: 2rem auto;
+}
+#footer span {
+  display: flex;
+  flex-direction: column;
+}
+#footer a {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: underline;
+  color: #000000;
+}
+
+@media screen and (max-width: 720px) {
+  /* BGS */
+  #bg01 {
+    background-image: url(media/bg01.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #bg02 {
+    background-image: url(media/bg02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #guarantee {
+    background-image: url(media/bg03.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #ofert {
+    background-image: url(media/bg04.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* MEDIC DEPOIMENT */
+  .medic-depoiment p {
+    text-align: left;
+  }
+}/*# sourceMappingURL=main.css.map */
